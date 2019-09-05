@@ -27,6 +27,11 @@ Normally that's all. After that everything should "just work" as normal...
 2. I'll try to make a change to the file. Under normal git, the new revision
    should also weight around 1.8Mb, so the .git folder should double its
    size and now weight 3.6Mb.
+3. Unfortunately after committing the change, thw content of the git folder
+   still weights 3.7Mb. Although .rvt files are well managed by git lfs, as
+   shown by `git lfs ls-files` and alsoinside the .git folder, the two
+   revisions are indeed inside a lfs folder.
+4. Trying to push and let others make changes to see what happens...
 
 ### Resources
 

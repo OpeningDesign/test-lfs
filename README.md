@@ -4,6 +4,8 @@ This repo is here to test LFS support
 
 ### Procedure
 
+#### Starting a new repo
+
 1. Install Git-LFS on your computer
 2. Warning, this works only fully for a new repo. You can go further on an 
    existing repo, but only revisions after this point will be handled by LFS. 
@@ -18,6 +20,10 @@ This repo is here to test LFS support
 7. Push
 
 Normally that's all. After that everything should "just work" as normal...
+
+#### Cloning this repo
+
+Just clone as usual, maybe you need to do `git lfs install`, I'mnot sure...
 
 ### Running the test
 
